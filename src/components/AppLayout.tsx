@@ -60,7 +60,7 @@ export default function AppLayout({ children }: { children: ReactNode }) {
         <aside className="glass-strong hidden md:flex md:w-64 md:flex-col md:fixed md:inset-y-0 z-30">
           <div className="flex h-16 items-center gap-2.5 px-6 border-b border-border/50">
             <BookOpen className="h-6 w-6 text-primary" />
-            <span className="text-lg font-semibold tracking-tight">StudyVault</span>
+            <span className="text-lg font-semibold tracking-tight"><span style={{ color: 'hsl(0, 72%, 51%)' }}>PARA</span><span style={{ color: 'hsl(221, 83%, 30%)' }}>DOCS</span></span>
           </div>
           <nav className="flex-1 space-y-1 px-3 py-4">
             {navItems.map((item) => (
